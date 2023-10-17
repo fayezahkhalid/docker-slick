@@ -1,7 +1,7 @@
     #bash image
     FROM nginx:latest
     #copy code from host to container 
-    COPY ./usr/share/nginx/html
+    COPY . /usr/share/nginx/html
 
     #expose port
     EXPOSE 80 443
