@@ -33,6 +33,6 @@ jobs:
       uses: docker/build-push-action@v5
       with:
         push: true
-        tags: docker push $DOCKER_REPOSITORY/$IMAGE_NAME:$TAG_PREFIX-$IMAGE_TAG
+        tags: docker push $DOCKER_REPOSITORY/$IMAGE_NAME:$TAG_PREFIX
       
       
